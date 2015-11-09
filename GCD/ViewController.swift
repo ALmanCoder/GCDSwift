@@ -36,7 +36,6 @@ class ViewController: UIViewController {
         
 //        self.gcdSemaphore()
         
-        
     }
     
     // 多线程加载图片
@@ -183,7 +182,7 @@ class ViewController: UIViewController {
     }
     
     
-    // 定时器，有问题
+    // 定时器
     func gcdTimer(){
         
 //        self.dispatch_Source = dispatch_source_create(DISPATCH_SOURCE_TYPE_TIMER, 0, 0, dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0))
